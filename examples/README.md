@@ -1,12 +1,12 @@
-        # ☁️ Examples — Infrastructure Knowledge Brain
+# ☁️ Examples — Infrastructure Knowledge Brain
 
-        ## Quick Command Example
+## Quick Command Example
 
-        ```bash
-        /infra-ingest my-target --output md
-        ```
+```bash
+/infra-ingest my-target --output md
+```
 
-        **Output:**
+**Output:**
 
 
 ```
@@ -26,24 +26,24 @@
 💡 Suggested runbook: /runbooks/api-gateway-oom.md
 ```
 
-        ## Workflow Example
+## Workflow Example
 
-        ```bash
-        /workflows:infra-brain-init my-target --scope full
-        ```
+```bash
+/workflows:infra-brain-init my-target --scope full
+```
 
-        ```
-        ╔══════════════════════════════════════════════════════════╗
-        ║  Step 1/5  Discovery   ✓  Done                          ║
-        ║  Step 2/5  Analysis    ✓  Done                          ║
-        ║  Step 3/5  Planning    ⟳  Running …                    ║
-        ║  [████████████░░░░░░]  60%   ETA ~12 min                ║
-        ╚══════════════════════════════════════════════════════════╝
-        ```
+```
+╔══════════════════════════════════════════════════════════╗
+║  Step 1/5  Discovery   ✓  Done                          ║
+║  Step 2/5  Analysis    ✓  Done                          ║
+║  Step 3/5  Planning    ⟳  Running …                    ║
+║  [████████████░░░░░░]  60%   ETA ~12 min                ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-        ## Tips
+## Tips
 
-        1. Start with `/infra-ingest` for a quick overview.
-        2. Use `--scope quick` for fast scans, `--scope full` for production.
-        3. Chain: run analysis first → use findings as input for planning.
-        4. `--output html` generates a stakeholder-ready report.
+1. Start with `/infra-ingest` for a quick overview.
+2. Use `--scope quick` for fast scans, `--scope full` for production.
+3. Chain: run analysis first → use findings as input for planning.
+4. `--output html` generates a stakeholder-ready report.
